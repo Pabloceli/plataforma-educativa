@@ -1,0 +1,15 @@
+paleta colores:
+#000000
+#14213D
+#FCA311
+#E5E5E5
+#FFFFFF
+
+
+
+
+#FF7800
+
+
+agregar 
+border-radius 5px a todos los botones o cuadros
