@@ -488,21 +488,20 @@
   }
   footer .contacto{
     width: 50%;
-    padding-left: 40px;  
+    padding-left: 25px;  
   }
   
     footer .contacto a{
       display: block;
       text-decoration: none;
       color: #b4b3b7;
-      width: 20px;
+      margin-bottom: 4px;
     }
   
     footer .contacto a:hover{
       display: block;
       text-decoration: none;
-      color: #f9989f;
-      width: 20px;
+      color: #FF7800;
     }
   
     footer .contacto h3{
