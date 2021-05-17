@@ -35,9 +35,9 @@
     display: block;
     color: #FF7800;
     height: 60px;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 60px;
-    padding:0 20px ;
+    padding:0 10px ;
     position: absolute;
     display: flex;
     font-weight: 700;
@@ -192,12 +192,26 @@
       .div-section-second div {
         display:flex;
         width: 45%;
+        /* background-color: rgb(139, 139, 139); */
+        background-color: #E5E5E5;
+        padding: 2px 9px;
+        border: 1px solid #14213D;
+        border-radius: 5px;
+        box-shadow: 2px 3px 10px rgb(0, 0, 0);
+      }
+
+      
+      /*   DIV VIEJO FONDO CLARO 
+      
+      .div-section-second div {
+        display:flex;
+        width: 45%;
         background-color: #E5E5E5;
         padding: 2px 9px;
         border: 1px solid #FF7800;
         border-radius: 5px;
         box-shadow: 2px 3px 10px rgb(253, 163, 18);
-      }
+      } */
 
       .div-section-second ul li {
         list-style: none;
@@ -218,7 +232,7 @@
 
       .section-home-3 h2{
           color: #FF7800;
-          font-size: 20px;
+          font-size: 25px;
         
       }
 
@@ -267,7 +281,7 @@
 
       .section-home-4 h2{
           color: #FF7800;
-          font-size: 20px;
+          font-size: 25px;
         
       }
 
@@ -492,7 +506,7 @@
 
 
   .whatsapp-seccion {
-    height: 40px;
+    height: 50px;
     width: auto;
   }
   
@@ -514,6 +528,7 @@
     justify-content: space-around;
     align-items: left;
     padding-top: 20px;
+    margin-top: 10px;
   }
   footer .contacto{
     width: 50%;
