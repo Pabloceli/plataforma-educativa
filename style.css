@@ -133,9 +133,8 @@
         margin: auto;
         background-color: #14213D;
         position:relative;
-        bottom: 585px;
+        bottom: 615px;
         width: 275px;
-        height: 100px;
         border: 1px solid #FF7800;
         padding: 5px;
         border-radius: 5px;
@@ -145,8 +144,29 @@
       .container-plataforma-educativa h2 {
         color: #FF7800;
         font-size: 18px;
+        margin: 0;
       }
 
+
+      .container-plataforma-educativa-2 {
+        position: relative;
+        margin: auto;
+        background-color: #14213D;
+        position:relative;
+        bottom: 300px;
+        width: 210px;
+        border: 1px solid #FF7800;
+        border-radius: 5px;
+        padding: 5px;
+
+      }
+
+      
+      .container-plataforma-educativa-2 h2 {
+        color: #FF7800;
+        font-size: 18px;
+        margin: 0;
+      }
 
     
         /* margin: 20px 10px;
@@ -159,7 +179,7 @@
   
       #boton-stock {
         position:relative;
-        bottom: 415px;
+        bottom: 550px;
         border: none;
         margin: 0 auto;
         height: 0;
@@ -172,8 +192,7 @@
         
       .section-home-second {
         min-height: 50vh;
-        margin-bottom: 10px;
-        padding: 0 4px;
+        margin-bottom: 50px;
       }
 
       .section-home-second h2{
@@ -184,14 +203,14 @@
 
       .div-section-second {
         display:flex;
-        justify-content: space-around;
+        justify-content: space-between;
         height: 60%;
         flex-wrap: wrap;
       }
 
       .div-section-second div {
         display:flex;
-        width: 45%;
+        width: 48%;
         /* background-color: rgb(139, 139, 139); */
         background-color: #E5E5E5;
         padding: 2px 9px;
@@ -226,7 +245,6 @@
       .section-home-3 {
         min-height: 50vh;
         margin-bottom: 30px;
-        padding: 0 4px;
 
       }
 
@@ -246,7 +264,7 @@
 
       .div-section-3 div {
         display:flex;
-        width: 45%;
+        width: 43%;
         height: 70px;
         background-color: #E5E5E5;
         padding: 2px 9px;

@@ -12,17 +12,17 @@
 </head>
 <body>
     <header>
-        <a href="/index" class="logo">SporTeaching</a>
+        <a href="/" class="logo">SporTeaching</a>
         <div class="menu-cel">
             
         </div>
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Servicios</a></li>
-                <li><a href="">Sobre nosotros</a></li>
-                <li><a href="">Presupuesto</a></li>
-                <li><a href="">Experiencias</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Sobre nosotros</a></li>
+                <li><a href="#presupuesto">Presupuesto</a></li>
+                <li><a href="#experiencias">Experiencias</a></li>
             </ul>
         </nav>       
     </header>
@@ -35,19 +35,23 @@
                 <div class="container-plataforma-educativa"> 
                     <h2>Plataformas educativas para el Mundo del Deporte</h2>
                 </div>
-                <div class='btn' id="boton-stock">
-                    <button>Solicitar presupuesto</button>   
-                </div>            
+                <div class="container-plataforma-educativa-2"> 
+                    <h2><i class="fas fa-tasks"></i> Planes a medida</h2>
+                    <a name="servicios"></a>
  
+                </div>
+                <div class='btn' id="boton-stock">
+                    <button>Solicitar presupuesto</button>
+   
+                </div>            
+
             </div>
         </section>
-
 
         <hr>
 
 
-        <section class="section-home-second">
-            
+        <section  class="section-home-second">
             <h2>Brindamos asesoramiento integral para la creación y gestión de Plataformas Educativas</h2>
             <!-- <h2>Federaciones - Academias Deportivas - Clubes - Empresas Deportivas</h2> -->
             <div class="div-section-second">
@@ -67,8 +71,9 @@
                         <li><i class="far fa-check-circle"></i> Botón de pago en Web</li>
                     </ul>
                 </div>
-                <h2><i class="fas fa-tasks"></i> Planes a medida</h2> 
+                <a name="nosotros"></a>
             </div>
+            <!-- <h2><i class="fas fa-tasks"></i> Planes a medida</h2>  -->
         </section>
 
 
@@ -97,6 +102,8 @@
                 
 
             </div>
+            <a name="presupuesto"></a>
+
         </section>
                     
 
@@ -155,10 +162,10 @@
             <img id="whatsapp" src="./whatsapp.png" alt="whatsapp">
         </a>    
         <div class="contacto">
-            <a href="">Servicios</a>
-            <a href="">Sobre nosotros</a>
-            <a href="">Presupuesto</a>
-            <a href="">Experiencias</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#nosotros">Sobre nosotros</a>
+            <a href="#presupuesto">Presupuesto</a>
+            <a href="#experiencias">Experiencias</a>
         </div>
     </footer>
         <!-- instalcion de jquery -->
@@ -171,7 +178,29 @@
                 $("nav").toggleClass("active")
             })
         });
+
+
+
+        $(document).ready(function() {
+  $('a[href^="#"]').click(function() {
+    var destino = $(this.hash);
+    if (destino.length == 0) {
+      destino = $('a[name="' + this.hash.substr(1) + '"]');
+    }
+    if (destino.length == 0) {
+      destino = $('html');
+    }
+    $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+    return false;
+  });
+});
+
+
+
+
         </script>
+
+        
 
 </body>
 </html>
