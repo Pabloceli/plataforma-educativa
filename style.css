@@ -88,6 +88,8 @@
     width: 100%;
   
   }
+
+  
   nav.active ul{
     display: block;
     width:100% ;
@@ -612,25 +614,64 @@
   
   @media (min-width: 678px) {
   
-  body {
-    display: none;
-  }
+
   
      /****************body home************/
-  
-     #boton-stock {
+
+
+     .container-plataforma-educativa {
+      position: relative;
+      margin: auto;
+      background-color: #14213D;
       position:relative;
-      bottom: 100px;
+      bottom: 615px;
+      width: 70%;
+      max-width: 550px;
+      border: 1px solid #FF7800;
+      padding: 10px 40px;
+      border-radius: 5px;
+    }
+
+    
+    .container-plataforma-educativa h2 {
+      color: #FF7800;
+      font-size: 25px;
+      margin: 0;
+    }
+
+    .container-plataforma-educativa-2 {
+      position: relative;
+      margin: auto;
+      background-color: #14213D;
+      position:relative;
+      bottom: 300px;
+      width: 40%;
+      max-width: 350px;
+      border: 1px solid #FF7800;
+      border-radius: 5px;
+      padding: 5px;
+
+    }
+
+    
+    .container-plataforma-educativa-2 h2 {
+      color: #FF7800;
+      font-size: 25px;
+      margin: 0;
+    }
+
+  
+    #boton-stock {
+      position:relative;
+      bottom: 550px;
       border: none;
       margin: 0 auto;
       height: 0;
     }
-  
+
     #boton-stock button {
-      width: 130px;
-      height: 50px;
-      font-size: 20px;
-    
+      width: 150px;
+      height: 70px;
     }
   
     /* CODIGO BARRA CORTE --------------------------------------------*/
@@ -694,75 +735,8 @@
     }
     /* HASTA ACA CODIGO BARRA CORTE --------------------------------------------*/
   
-    .section-home-first {
-      min-height: 40vh;
-      max-height: 80vh;
-      margin-top:-20px;
-      margin-bottom: 55px;
-    }
-  
-    .section-home-second {
-      display:inline;
-    }
-  
-    .section-home-second h2 {
-        margin: auto;
-        color: #f9989f;
-  
-  }
-  
-    .section-home-second img {
-      object-fit: cover;    /*  CON ESTE OBJECT-FIT HICE QUE LA IMAGEN NO SE DEFORME   */
-      width: 100%;
-  
-  }
-  
-    .container-home-second{
-        margin: 0 20px;
-        display:flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        box-shadow: 0px 0px 30px rgb(249 152 159);
-  
-    }
-  
-    .container-img-homen-second{
-      display:none;
-  }
-  
-  .container-home-fotos-pc {
-    height: 300px;
-    width: 100%;
-    display:flex;
-    justify-content: space-around;
-  }
-  
-  .container-home-fotos-pc div{
-    width: 25%;
-    display:flex;
-    position:relative;
-    border: solid #f9989f 2px;
-  }
-  
-  .container-home-fotos-pc div .btn{
-    position:absolute;
-    left: 0;
-    right: 0;
-    bottom: 5px;
-    margin: auto;
-    border: none;
-    width: 120px;
-    height: 80px;
-    }
-  
-    .container-home-fotos-pc div .btn button{
-      font-size: 18px;
-      }
-  
-  #titulo-niñas-cambio-orden {
-    order: -1;
-  }
-  
+
+
     /***********************/
     .menu-cel{
       display: none;
@@ -782,34 +756,7 @@
       text-align: center;
     }
   
-    .producto {
-      position: relative;
-      width: 100vw;
-      max-width: 1200px;
-      height: 80vh;
-      display: flex;
-    }
-  
-    .producto figure {
-      position: absolute;
-      width: 45%;
-      max-width: 550px;
-      top: 0;
-      left: 10px;
-    }
-  
-    .img-principal {
-      display: block;
-      height: auto;
-      margin: auto;
-      text-align: center;
-    }
-  
-    .img-principal img {
-      width: 100%;
-      margin: auto;
-    }
-  
+
     .footer-producto-principal {
       position: absolute;
       max-width: 550px;

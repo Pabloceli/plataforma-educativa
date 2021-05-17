@@ -11,5 +11,7 @@ paleta colores:
 #FF7800
 
 
-agregar 
-border-radius 5px a todos los botones o cuadros
+
+ajustar:
+caida de las anclas de botones de menu
+planes a medida mas arriba
