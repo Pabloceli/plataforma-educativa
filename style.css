@@ -8,8 +8,10 @@
   
   body {
     background-color: #14213D;
+
     
   }
+
 
   main {
     margin-top: 100px;
@@ -19,7 +21,12 @@
   }
 
   .contenedor-secciones {
-  
+    background-image:
+    linear-gradient(0deg, #14213D 0%, rgba(5, 1, 51, 0) 100%), url("./estadio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
   /*******Anclas*************/
@@ -174,30 +181,21 @@
       /****************body home************/
   
       .section-home-first {
-        height: 650px;      /****************En mobile poner 100vh************/
+        height: 100vh;      /****************En mobile poner 100vh************/
         margin-top:-20px;
         margin-bottom: 50px;
       }
   
-
-  
-      .img-section-home-first img {
-          object-fit: cover;
-          width: 100%;
-          height: 650px;   /****************En mobile poner 100vh************/
-
-        }
   
       .container-plataforma-educativa {
-        position: relative;
         margin: auto;
         background-color: #14213D;
-        position:relative;
-        bottom: 615px;
         width: 275px;
         border: 1px solid #FF7800;
         padding: 5px;
         border-radius: 5px;
+        position: relative;
+        top: 10vh;
       }
 
       
@@ -208,16 +206,44 @@
       }
 
 
-      .container-plataforma-educativa-2 {
+      .btn {
+        border: none;
+        margin: 0 auto;
+        height: 0;
         position: relative;
+        top: 20vh;
+      }
+      
+      .btn button {
+        color: #FF7800;
+        margin: 15px 0;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        border: 1px solid #FF7800;
+        transition: all 0.2s;
+        padding: 5px;
+        background-color: #14213D;
+        border-radius: 5px;
+        width: 150px;
+        height: 70px;
+      }
+      
+      .btn button:hover {
+        color: white;
+        background-color: #FF7800;
+        cursor: pointer;
+      }
+
+      .container-plataforma-educativa-2 {
         margin: auto;
         background-color: #14213D;
-        position:relative;
-        bottom: 300px;
         width: 210px;
         border: 1px solid #FF7800;
         border-radius: 5px;
         padding: 5px;
+        position: relative;
+        top: 50vh;
 
       }
 
@@ -229,26 +255,8 @@
       }
 
     
-        /* margin: 20px 10px;
-        
-        margin: 15px 0;
-        font-weight: 500;
-        
-        line-height: 23px; */
+  
 
-  
-      #boton-stock {
-        position:relative;
-        bottom: 550px;
-        border: none;
-        margin: 0 auto;
-        height: 0;
-      }
-  
-      #boton-stock button {
-        width: 150px;
-        height: 70px;
-      }
         
       .section-home-second {
         min-height: 50vh;
@@ -498,37 +506,7 @@
     color: #282828;
   }
   
-  .btn {
-    margin: 20px 10px;
-    border-top: #282828 1px solid;
-    border-bottom: #282828 1px solid;
-    position:relative;
-    bottom: 550px;
-    border: none;
-    margin: 0 auto;
-    height: 0;
-  }
-  
-  .btn button {
-    color: #FF7800;
-    margin: 15px 0;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    border: 1px solid #FF7800;
-    transition: all 0.2s;
-    padding: 5px;
-    background-color: #14213D;
-    border-radius: 5px;
-    width: 150px;
-    height: 70px;
-  }
-  
-  .btn button:hover {
-    color: white;
-    background-color: #FF7800;
-    cursor: pointer;
-  }
+
 
 
   .corte div{
