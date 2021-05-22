@@ -16,6 +16,17 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  /*******Anclas*************/
+
+  #ancla-servicios {
+    margin-top: -1000;
+
+  }
+
+  hr {
+    margin: 70px 0;
+  }
   
   /*******configuracion del menu*************/
   header{
@@ -35,13 +46,13 @@
     display: block;
     color: #FF7800;
     height: 60px;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 60px;
-    padding:0 10px ;
     position: absolute;
     display: flex;
     font-weight: 700;
     text-decoration: none;
+    margin-left: -15px;
   }
   .menu-cel{
     display: block;
@@ -52,7 +63,7 @@
     font-size: 30px;
     color: #FF7800;
     position:absolute;
-    right: 20px;
+    right: 10px;
     
   }
   .menu-cel.active::before{
@@ -110,6 +121,14 @@
     transform: translate(-5px,-5px);
     border-radius: 5px;
   
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  header img {
+    margin-right: -10px;
   }
   
   
@@ -195,6 +214,7 @@
       .section-home-second {
         min-height: 50vh;
         margin-bottom: 50px;
+        margin-top: 50px;
       }
 
       .section-home-second h2{
