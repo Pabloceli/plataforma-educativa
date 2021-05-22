@@ -8,6 +8,7 @@
   
   body {
     background-color: #14213D;
+    
   }
 
   main {
@@ -15,6 +16,10 @@
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .contenedor-secciones {
+  
   }
 
   /*******Anclas*************/
@@ -26,7 +31,40 @@
 
   hr {
     margin: 70px 0;
+    background-color: #AEDAE9;
+    height: 5px;
   }
+
+  .corte-home{
+    width: 100%;
+    height: 100%;
+    background-image:
+    linear-gradient(0deg, rgba(197,248,200,1) 0%, rgba(253,187,45,0.3561799719887955) 100%), url("./campo-de-juego.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+    display:flex;
+    border: solid #FF7800 3px;
+  
+  }
+  .corte-home div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+  .corte-home div h2{
+    color: #f9989f;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px black;
+
+    
+  
+  }
+  
   
   /*******configuracion del menu*************/
   header{
@@ -62,8 +100,8 @@
     cursor: pointer;
     font-size: 30px;
     color: #FF7800;
-    position:absolute;
-    right: 10px;
+    position: absolute;
+    right: 0px;
     
   }
   .menu-cel.active::before{
@@ -124,11 +162,12 @@
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 27px;
   }
 
   header img {
     margin-right: -10px;
+    height: 90%;
   }
   
   
@@ -234,7 +273,7 @@
         display:flex;
         width: 48%;
         /* background-color: rgb(139, 139, 139); */
-        background-color: #E5E5E5;
+        background-color: #AEDAE9;
         padding: 2px 9px;
         border: 1px solid #14213D;
         border-radius: 5px;
@@ -288,11 +327,11 @@
         display:flex;
         width: 43%;
         height: 70px;
-        background-color: #E5E5E5;
+        background-color: #AEDAE9;
         padding: 2px 9px;
-        border: 1px solid #FF7800;
+        border: 1px solid #14213D;
         border-radius: 5px;
-        box-shadow: 2px 3px 10px rgb(253, 163, 18);
+        box-shadow: 2px 3px 10px rgb(0, 0, 0);
         align-items: center;
         justify-content: center;
         margin-bottom: 20px;
@@ -300,11 +339,11 @@
 
       .info-quienes-somos {
         width: 92%;
-        background-color: #E5E5E5;
+        background-color: #AEDAE9;
         padding: 2px 9px;
-        border: 1px solid #FF7800;
+        border: 1px solid #14213D;
         border-radius: 5px;
-        box-shadow: 2px 3px 10px rgb(253, 163, 18);
+        box-shadow: 2px 3px 10px rgb(0, 0, 0);
         margin: auto;
 
       
@@ -418,38 +457,7 @@
         border: solid #f9989f 3px;
     }
   
-  
-  
-    .corte-home{
-      width: 48%;
-      height: 100%;
-      background-image:
-      linear-gradient(0deg, rgba(197,248,200,1) 0%, rgba(253,187,45,0.3561799719887955) 100%), url("./campo-de-juego.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-attachment: fixed;
-      background-size: cover; 
-      display:flex;
-      border: solid #f9989f 3px;
-    
-    }
-    .corte-home div{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 10;
-    }
-    .corte-home div h2{
-      color: #f9989f;
-      font-size: 30px;
-      font-weight: 700;
-      text-shadow: 2px 2px 10px black;
-  
-      
-    
-    }
-  
+   
     
   
   /****************detalle del producto************/
@@ -494,6 +502,11 @@
     margin: 20px 10px;
     border-top: #282828 1px solid;
     border-bottom: #282828 1px solid;
+    position:relative;
+    bottom: 550px;
+    border: none;
+    margin: 0 auto;
+    height: 0;
   }
   
   .btn button {
@@ -502,19 +515,22 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
-    width: 115px;
-    height: 41px;
     border: 1px solid #FF7800;
     transition: all 0.2s;
     padding: 5px;
     background-color: #14213D;
     border-radius: 5px;
+    width: 150px;
+    height: 70px;
   }
   
   .btn button:hover {
     color: white;
     background-color: #FF7800;
+    cursor: pointer;
   }
+
+
   .corte div{
     
     height: 100%;
@@ -681,18 +697,7 @@
     }
 
   
-    #boton-stock {
-      position:relative;
-      bottom: 550px;
-      border: none;
-      margin: 0 auto;
-      height: 0;
-    }
 
-    #boton-stock button {
-      width: 150px;
-      height: 70px;
-    }
   
     /* CODIGO BARRA CORTE --------------------------------------------*/
     .corte div{

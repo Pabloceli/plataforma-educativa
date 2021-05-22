@@ -5,7 +5,8 @@ paleta colores:
 #E5E5E5
 #FFFFFF
 
-
+#AEDAE9    celeste del log
+    
 
 
 #FF7800
@@ -15,3 +16,6 @@ paleta colores:
 ajustar:
 caida de las anclas de botones de menu
 planes a medida mas arriba
+
+
+
