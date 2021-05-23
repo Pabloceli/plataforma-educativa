@@ -29,12 +29,7 @@
     background-size: cover;
   }
 
-  /*******Anclas*************/
 
-  #ancla-servicios {
-    margin-top: -1000;
-
-  }
 
   hr {
     margin: 70px 0;
@@ -191,7 +186,7 @@
         background-color: #14213D;
         width: 275px;
         border: 1px solid #FF7800;
-        padding: 5px;
+        padding: 10px;
         border-radius: 5px;
         position: relative;
         top: 10vh;
@@ -246,7 +241,7 @@
         width: 210px;
         border: 1px solid #FF7800;
         border-radius: 5px;
-        padding: 5px;
+        padding: 10px;
         position: relative;
         top: 25vh;
 
@@ -384,7 +379,7 @@
 
       .div-section-3 div {
         display:flex;
-        width: 43%;
+        width: 45%;
         height: 70px;
         align-items: center;
         justify-content: center;
@@ -398,8 +393,8 @@
       }
 
       .info-quienes-somos {
-        width: 92%;
-        padding: 2px 9px;
+        width: 96%;
+        padding: 15px 9px;
         border-radius: 5px;
         margin: auto;
         border: 1px solid #AEDAE9;
@@ -464,6 +459,10 @@
       .div-section-4 p {
         padding: 3px 10px;
       }
+
+      .div-section-4 a {
+        text-decoration: none;
+            }
 
       #mail {
         font-size: 45px;
@@ -702,7 +701,9 @@
   
   @media (min-width: 678px) {
   
-
+    body {
+      display: none;
+    }
   
      /****************body home************/
 
