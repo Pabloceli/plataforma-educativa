@@ -659,9 +659,22 @@
     }
   }
   
-  @media (min-width: 1200px) {
+  @media (min-width: 1100px) {
    /************* menu ****************************/
+   header img {
+    margin-right: 0px;
+    height: 115%;
+    padding-left: 10px;
+  }
 
+    header h1 {
+      font-size: 40px;
+    }
+
+    header li {
+      font-size: 20px;
+      font-weight: bold;
+    }
    /******************************************/   
     
 
