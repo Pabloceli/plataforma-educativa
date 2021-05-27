@@ -12,7 +12,6 @@
 
   p {
     font-family: 'Open Sans', sans-serif;
-
   }
      
 
@@ -33,41 +32,10 @@
   }
 
 
-
   hr {
     margin: 70px 0;
     background-color: #AEDAE9;
     height: 5px;
-  }
-
-  .corte-home{
-    width: 100%;
-    height: 100%;
-    background-image:
-    linear-gradient(0deg, rgba(197,248,200,1) 0%, rgba(253,187,45,0.3561799719887955) 100%), url("./campo-de-juego.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover; 
-    display:flex;
-    border: solid #FF7800 3px;
-  
-  }
-  .corte-home div{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-  }
-  .corte-home div h2{
-    color: #f9989f;
-    font-size: 30px;
-    font-weight: 700;
-    text-shadow: 2px 2px 10px black;
-
-    
-  
   }
   
   
@@ -85,6 +53,7 @@
     z-index: 999;
     opacity: 0.9;
   }
+
   .logo{
     display: block;
     color: #FF7800;
@@ -142,8 +111,7 @@
   }
   nav.active{
     display: block;
-    width: 100%;
-  
+    width: 100%;  
   }
 
   
@@ -154,8 +122,7 @@
     background-color: #14213D;
     border-radius: 5px;
   }
-  nav.active ul li a{
-    
+  nav.active ul li a {    
     margin: 0;
   }
   
@@ -165,8 +132,7 @@
     letter-spacing: 1px;
     transition: 500ms;
     transform: translate(-5px,-5px);
-    border-radius: 5px;
-  
+    border-radius: 5px;  
   }
 
   h1 {
@@ -182,7 +148,7 @@
       /****************body home************/
   
       .section-home-first {
-        height: 90vh;      /****************En mobile poner 100vh************/
+        height: 90vh;      
         margin-top:-20px;
       }
   
@@ -284,12 +250,13 @@
         margin: auto;
         background-color: #14213D;
         width: 96%;
+        max-width: 500px;
         border: 1px solid #AEDAE9;
         border-radius: 5px;
         position: relative;
         top: -5vh;
         box-shadow: 1px 2px 2px #FF7800;
-        
+        padding: 10px;   
         
       } 
 
@@ -331,11 +298,11 @@
 
       .div-section-second {
         display:flex;
-        justify-content: space-between;
-        height: 60%;
+        justify-content: space-around;
         flex-wrap: wrap;
         width: 96%;
         margin: auto;
+        max-width: 920px;
       }
 
       .div-section-second div {
@@ -347,21 +314,10 @@
         border: 1px solid #AEDAE9;
         border-radius: 5px;
         box-shadow: 1px 2px 2px #FF7800;
+        max-width: 400px;
       }
 
       
-      /*   DIV VIEJO FONDO CLARO 
-      
-      .div-section-second div {
-        display:flex;
-        width: 45%;
-        background-color: #E5E5E5;
-        padding: 2px 9px;
-        border: 1px solid #FF7800;
-        border-radius: 5px;
-        box-shadow: 2px 3px 10px rgb(253, 163, 18);
-      } */
-
       .div-section-second ul li {
         list-style: none;
         text-align: left;
@@ -374,11 +330,7 @@
       
       .div-section-second ul  {
         color: #AEDAE9;
-
-
       }
-
-
 
 
       .section-home-3 {
@@ -389,8 +341,7 @@
 
       .section-home-3 h2{
           color: #AEDAE9;
-          font-size: 25px;
-        
+          font-size: 25px;        
       }
 
       .div-section-3 {
@@ -398,13 +349,14 @@
         justify-content: space-around;
         height: 60%;
         flex-wrap: wrap;
-        width: 100%;
+        width: 96%;
+        margin: auto;
+        max-width: 920px;
         }
 
       .div-section-3 div {
         display:flex;
         width: 45%;
-        height: 70px;
         align-items: center;
         justify-content: center;
         margin-bottom: 20px;
@@ -414,6 +366,7 @@
         border-radius: 5px;
         box-shadow: 1px 2px 2px #FF7800;
         color: #AEDAE9;
+        padding: 10px;
       }
 
       .div-section-3 div h3 {
@@ -426,6 +379,7 @@
 
       .info-quienes-somos {
         width: 96%;
+        max-width: 900px;
         padding: 15px 9px;
         border-radius: 5px;
         margin: auto;
@@ -437,6 +391,9 @@
 
       .info-quienes-somos p {
         color: #AEDAE9;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
       }
 
 
@@ -453,15 +410,13 @@
         
       }
 
-      .section-home-4 p{
-        color: #AEDAE9;
-        font-size: 18px;
-      
-    }
-
       .div-section-4 {
         display:flex;
         flex-wrap: wrap;
+        margin: 20px auto;
+        justify-content: space-around;
+        max-width: 900px;
+        width: 96%;
         }
 
       .subcontenedor-section4 {
@@ -490,164 +445,17 @@
 
       .div-section-4 p {
         padding: 3px 10px;
+        font-family: 'Open Sans', sans-serif;
+        color: #AEDAE9;
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding: 5px 15px;
       }
 
       .div-section-4 a {
         text-decoration: none;
             }
 
-      #mail {
-        font-size: 45px;
-
-      }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-      .section-home-third {
-        height: 50vh;
-        background-color: #FF7800;
-        margin: 0 10px 10px;
-        display: none;
-      }
-
-      .section-home-four {
-        height: 50vh;
-        margin-bottom: 10px;
-        display: none;
-
-      }
-
-      .section-home-five {
-        height: 50vh;
-        background-color: #FF7800;
-        margin: 0 10px 10px;
-        display: none;
-
-      }
-  
-      .section-home-second img {
-        object-fit: cover;    /*  CON ESTE OBJECT-FIT HICE QUE LA IMAGEN NO SE DEFORME   */
-        width: 100%;
-  
-    }
-  
-      .container-home-second{
-          height: 33%;
-          display:flex;
-          justify-content: space-around;
-          margin-bottom: 5px;
-      }
-  
-      .container-home-fotos-pc {
-        display:none;
-      }
-  
-      .container-img-homen-second{
-        height: 100%;
-        width: 48%;
-        display:flex;
-        border: solid #f9989f 3px;
-    }
-  
-   
-    
-  
-  /****************detalle del producto************/
-
-  
-  h2 {
-    margin: 20px 0;
-    font-weight: 500;
-    font-size: 24px;
-    color: #282828;
-    text-align: center;
-  }
-  
-  .img-secundarias {
-    display: none;
-  }
-  
-  .img-principal {
-    display: block;
-    width: 303px;
-    height: auto;
-    margin: auto;
-  }
-  
-  .img-principal img {
-    width: 100%;
-    margin: auto;
-  }
-  
-  .descripcion-producto {
-    border-bottom: 1px solid #b4b3b7;
-  }
-  
-  p {
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 26px;
-    color: #282828;
-  }
-  
-
-
-
-  .corte div{
-    
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-  }
-  .corte div h2{
-    color: #f9989f;
-    font-size: 54px;
-    font-weight: 700;
-    
-  
-  }
-  .corte{
-    width: 100vw;
-    height: 250px;
-    margin: 50px 0;
-    background-image:
-    linear-gradient(0deg, rgba(197,248,200,1) 0%, rgba(253,187,45,0.3561799719887955) 100%), url("/img/img/fondo-flores.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    
-  
-  }
-
-
-  .whatsapp-seccion {
-    height: 50px;
-    width: auto;
-  }
   
   /***************footer**********************/
   #whatsapp {
@@ -702,49 +510,128 @@
   }
   footer .redes{
     text-align: center;
-    width: 50%;
-    
-    
+    width: 50%;       
   }
+
   footer .redes p{
     color: #b4b3b7;
+
   }
   footer .redes a{
     text-decoration: none;
     color: #b4b3b7;
     font-size: 24px;
-    margin: 5px;
-    
-    
+    margin: 5px;    
   }
+
   footer .face:hover{
     color:#f9989f;
-    font-size: 26px;
-    
+    font-size: 26px;    
   }
+
   footer .insta:hover{
     color:#c5f8c8;
-    font-size: 26px;
-    
+    font-size: 26px;    
   }
+
   footer .map:hover{
     color:#faf096;
-    font-size: 26px;
-    
+    font-size: 26px;    
   }
   
-  @media (min-width: 678px) {
+  @media (min-width: 850px) {
   
     
      /****************body home************/
+
+     .container-plataforma-educativa {
+      width: 350px;
+    }
+
+    
+    .container-plataforma-educativa h2 {
+      letter-spacing: 2px;
+      font-size: 25px;
+    }
+
+    .container-plataforma-educativa-2 {
+      width: 280px;
+    }
+
+    
+    .container-plataforma-educativa-2 h2 {
+      letter-spacing: 2px;
+      font-size: 25px;
+    }
+  
+    .btn {
+      top: 43vh;
+    }
+
+    .btn i{
+      font-size:35px;
+      top: 2px;
+    }
+    
     .btn button {
-      width: 250px;
-      height: 100px;
-      font-size: 32px;
-      line-height: 42px;
+      width: 194px;
+      height: 82px;
+      font-size: 25px;
+      letter-spacing: 2px;
     }
 
 
+    .contenedor-titulo-seccion h2{
+      font-size: 25px;
+    } 
+
+
+
+    .div-section-second-iconos {
+      margin: 20px 15%;
+
+    }
+
+    
+   .div-section-second-iconos div i {
+      font-size: 70px;
+    }
+
+    .div-section-second ul li {
+      font-size: 20px;
+      line-height: 35px;
+      padding: 4px;
+    }
+
+    .div-section-second ul {
+      padding: 10px;
+    }
+
+
+    .div-section-3 div h3 {
+      font-size: 25px;
+    }
+
+    .div-section-3  {
+      margin: 20px auto;
+    }
+
+    .info-quienes-somos p {
+      font-size: 20px;
+      line-height: 35px;
+      padding: 4px;
+    }
+
+    .div-section-4 i {
+      font-size: 70px;
+      margin-bottom: 10px;
+
+    }
+
+
+    .div-section-4 p {
+      font-size: 22px;
+    }
     /***********************/
     .menu-cel{
       display: none;
@@ -754,18 +641,13 @@
       position: absolute;
       right: 20px;
   }
-    /***********************/
 
-  }
-  
-  @media (min-width: 1200px) {
-   /************* menu ****************************/
-   header{
-    margin: 0 auto;
-  
-  }
-   /******************************************/   
-    
+
+
+
+
+
+    /***********************/
   
     #whatsapp {
       height: 60px;
@@ -775,6 +657,14 @@
       right: 15px;
       z-index: 999;
     }
+  }
+  
+  @media (min-width: 1200px) {
+   /************* menu ****************************/
+
+   /******************************************/   
+    
+
   
   }
   
